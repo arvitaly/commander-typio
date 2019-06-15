@@ -1,6 +1,6 @@
 {
     "name": "commander-typio",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "",
     "main": "index.js",
     "scripts": {
@@ -20,15 +20,15 @@
     "homepage": "https://github.com/arvitaly/commander-typio#readme",
     "jest": {},
     "devDependencies": {
-        "@types/jest": "^23.3.9",
-        "coveralls": "^3.0.2",
-        "jest": "^23.6.0",
-        "tslint": "^5.11.0",
-        "typescript": "^3.1.6"
+        "@types/jest": "^24.0.14",
+        "coveralls": "^3.0.4",
+        "jest": "^24.8.0",
+        "tslint": "^5.17.0",
+        "typescript": "^3.5.2"
     },
     "dependencies": {
         "@types/node": "^10.12.9",
         "commander": "^2.19.0",
-        "typio": "^0.2.3"
+        "typio": "^0.3.6"
     }
 }
