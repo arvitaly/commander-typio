@@ -1,6 +1,6 @@
 {
     "name": "commander-typio",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "",
     "main": "index.js",
     "scripts": {
@@ -18,7 +18,12 @@
         "url": "https://github.com/arvitaly/commander-typio/issues"
     },
     "homepage": "https://github.com/arvitaly/commander-typio#readme",
-    "jest": {},
+    "jest": {
+        "testMatch": [
+            "**/__tests__/**/*.js",
+            "**/?(*.)+(spec|test).js"
+        ]
+    },
     "devDependencies": {
         "@types/jest": "^24.0.14",
         "coveralls": "^3.0.4",
